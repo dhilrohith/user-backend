@@ -1,0 +1,22 @@
+{
+  "name": "users-backend",
+  "version": "1.0.0",
+  "description": "user-backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dhilrohith/user-backend.git"
+  },
+  "author": "Dhil Rohith B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhilrohith/user-backend/issues"
+  },
+  "homepage": "https://github.com/dhilrohith/user-backend#readme",
+  "dependencies": {
+    "mongoose": "^8.8.2"
+  }
+}
