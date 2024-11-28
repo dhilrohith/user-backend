@@ -10,7 +10,7 @@ mongoose.connect(config.MONGODB_URI)
         console.log("Connected to database")
 
         // listen for requests
-        app.listen(process.env.PORT, () => {
+        app.listen(3001, () => {
             console.log(`server is running @ http://localhost:3001`);
         })
     }).catch((error) => {
